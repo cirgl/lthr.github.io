@@ -1,0 +1,10 @@
+html, body {
+    background-color: #2980b9;
+    padding: 30px 10px 10px;
+}
+.main {
+    text-align: center;
+}
+ul.links {
+    list-style-type: none;
+}
