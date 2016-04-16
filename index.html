@@ -1,20 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="narp.css">
-    <title>narp</title>
-</head>
-<body>
+---
+layout: default
+title: narp.io
+---
 
-<div class="main">
-    <div class="whale">
-        <img src="img/whale.png" alt="whale">
-    </div>
-    <ul class="links">
-        <li><a href="https://github.com/justnarp"><img src="img/link-repos.png" alt="repositories"></a></li>
-    </ul>
+
+<div>
+    <a href="{{ site.baseurl }}/" title="narp.io">
+        <img src="public/whale.png" alt="whale" style="display: block; margin: 0 auto 2em;">
+    </a>
 </div>
 
-</body>
-</html>
+
+<div class="posts" style="text-align: center;">
+    {% for post in paginator.posts %}
+    <article class="post">
+        <h3 class="post-title">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h3>
+    </article>
+    {% endfor %}
+</div>

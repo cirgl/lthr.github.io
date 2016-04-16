@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Useful GIT commands &middot; narp.io
+    
+  </title>
+
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="narp.io" href="/atom.xml">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+<div class="container content">
+    <main>
+        <div style="width: 150px;">
+  <a href="/" title="narp.io">
+    <img src="/public/whale.png" alt="whale" style="width: 100%;">
+  </a>
+</div>
+
+<article class="post">
+  <h1 class="post-title">Useful GIT commands</h1>
+  <time datetime="2015-01-08T00:00:00+01:00" class="post-date">08 Jan 2015</time>
+  <ul>
+<li><a href="#revert-local-changes">Revert local changes</a></li>
+<li><a href="#staging-files">Staging files</a></li>
+<li><a href="#git-config">Git config</a></li>
+<li><a href="#rollback">Rollback</a></li>
+<li><a href="#move-your-crazy-experiment-into-a-seperate-branch">Move your crazy experiment into a seperate branch</a></li>
+<li><a href="#reset-file">Reset file</a></li>
+<li><a href="#branch-names">Branch names</a></li>
+<li><a href="#ignore-changes">Ignore changes</a></li>
+<li><a href="#un-ignore-changes">Un-ignore changes</a></li>
+<li><a href="#misc">Misc</a></li>
+<li><a href="#github">GitHub</a></li>
+</ul>
+
+<h2>Revert local changes</h2>
+
+<p>To reset all local changes, get the same content as remote master:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git fetch --all
+git reset --hard origin/master
+</code></pre></div>
+<h2>Staging files</h2>
+
+<p>Different ways to stage changed files, and why <code>git add -A</code> is preferred:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># stages new and modified, without deleted</span>
+git add .
+</code></pre></div><div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># stages modified and deleted, without new</span>
+git add -u
+</code></pre></div><div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># stages all</span>
+git add -A
+</code></pre></div>
+<p>To unstage files:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># removes added</span>
+git reset
+</code></pre></div>
+<h2>Git config</h2>
+
+<p>Show content of .gitconfig:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git config --global --edit 
+</code></pre></div>
+<h2>Rollback</h2>
+
+<p>Remove unwanted commits to origin/master, return state to how it looked like at commit id&nbsp;<code>e3f1e37</code>:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git reset --hard e3f1e37
+git push --force origin master
+</code></pre></div>
+<h2>Move your crazy experiment into a seperate branch</h2>
+
+<p>Let&#39;s assume you&#39;ve been committing code for a crazy experiment to the master branch for a while, then realize this should have been in its own branch:</p>
+
+<p><img src="/public/useful-git-commands/crazy-experiment-1.gif" alt="Crazy experiment on master"></p>
+
+<p>Create a seperate branch containing this experimental code:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">git branch crazy-experiment
+git push origin crazy-experiment
+</code></pre></div>
+<p><img src="/public/useful-git-commands/crazy-experiment-2.gif" alt="Crazy experiment on its own branch"></p>
+
+<p>Reset master branch:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">git reset --hard 8fa7b51
+git push --force origin master
+</code></pre></div>
+<p><img src="/public/useful-git-commands/crazy-experiment-3.gif" alt="The master branch is back to normal"></p>
+
+<p>You can verify your experiment branch is 3 commits ahead of master:</p>
+
+<p><img src="/public/useful-git-commands/crazy-experiment-4.gif" alt="Crazy experiment branch 3 commits ahead of master"></p>
+
+<p>Now continue working on your experimental branch:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">git checkout crazy-experiment
+</code></pre></div>
+<h2>Reset file</h2>
+
+<p>Overwrite content in file with content from same file located on origin/master:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git checkout origin/master -- &lt;file&gt;
+</code></pre></div>
+<h2>Branch names</h2>
+
+<p>Show a list of branches on origin:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git fetch origin
+git branch -v -a
+</code></pre></div>
+<h2>Ignore changes</h2>
+
+<p>To ignore local changes to a tracked file:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git update-index --assume-unchanged &lt;file&gt;
+</code></pre></div>
+<h2>Un-ignore changes</h2>
+
+<p>To un-ignore local changes to a tracked file:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git update-index --no-assume-unchanged &lt;file&gt;
+</code></pre></div>
+<h2>Misc</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git config core.safecrlf <span class="nb">false</span>
+</code></pre></div>
+<h2>GitHub</h2>
+
+<p>Create a new repository on GitHub from the command line (if you&#39;re on Windows you&#39;ll need to install <a href="https://www.google.com/search?q=windows+curl"><code>curl</code></a> first):</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Replace USER and REPO</span>
+curl -u USER https://api.github.com/user/repos -d <span class="s1">'{ "name": "REPO" }'</span>
+</code></pre></div>
+<p>Create a new project and push it to an existing repository on GitHub:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">"# REPO"</span> &gt;&gt; README.md
+git init
+git add README.md
+git commit -m <span class="s2">"first commit"</span>
+<span class="c"># Replace USER and REPO</span>
+git remote add origin https://github.com/USER/REPO.git
+git push -u origin master
+</code></pre></div>
+</article>
+
+
+
+    </main>
+</div>
+
+</body>
+</html>
