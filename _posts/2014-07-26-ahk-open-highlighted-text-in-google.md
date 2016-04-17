@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AHK - Open highlighted text in Google
+title: Open highlighted text in Google with AutoHotkey
 tags:
 - autohotkey
 ---
