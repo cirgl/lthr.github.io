@@ -32,3 +32,5 @@ gems:
   - jekyll-gist
 
 markdown: kramdown
+
+disqus: justnarp
