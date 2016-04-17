@@ -1,5 +1,5 @@
 # Permalinks
-permalink:           none
+permalink:           :title
 
 # Setup
 title:               narp.io
