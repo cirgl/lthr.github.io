@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AHK: Changing the default sound device
+title: AHK - Changing the default sound device
 tags:
 - autohotkey
 ---
