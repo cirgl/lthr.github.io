@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AHK - Resize PuTTY window
+title: Resize PuTTY window with AutoHotkey
 tags:
 - autohotkey
 ---
