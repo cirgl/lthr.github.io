@@ -11,7 +11,7 @@ What the script does is to open your Sound / Playback preferences window, select
 
 ![](/public/sound.png)
 
-In this case I’m switching between 1 (Speakers) and 2 (Speakers / HP). You need to change these numbers in the script, line 5, 7 and 16 (or delete line 16 if you prefer), if your Playback devices are set up different than mine. The script uses the keys <kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>F1</kbd> as default.
+In this case I’m switching between 1 (Speakers) and 2 (Speakers / HP). You need to change these numbers in the script, line 5, 7 and 16 (or delete line 16 if you prefer), if your Playback devices are set up different than mine. The script uses the keys <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>Win</kbd>&nbsp;+&nbsp;<kbd>F1</kbd> as default.
 
 	; toggle speaker setup
 	^#F1::
