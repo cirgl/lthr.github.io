@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AHK - Changing the default sound device
+title: Changing the default sound device with AutoHotkey
 tags:
 - autohotkey
 ---
@@ -9,7 +9,7 @@ If you’re the kind of person who always have your headset connected to your co
 
 What the script does is to open your Sound / Playback preferences window, select between the two options you’ve chosen, and set this as default. To give you an idea, look at my Playback preferences:
 
-![](/public/sound.png)
+![](/public/ahk-sound.png)
 
 In this case I’m switching between 1 (Speakers) and 2 (Speakers / HP). You need to change these numbers in the script, line 5, 7 and 16 (or delete line 16 if you prefer), if your Playback devices are set up different than mine. The script uses the keys <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>Win</kbd>&nbsp;+&nbsp;<kbd>F1</kbd> as default.
 
