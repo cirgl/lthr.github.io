@@ -19,11 +19,11 @@ You can link to a specific image as they're link anchored. Just click on the spe
 
 You'll need PHP on your server in order for this to work.
 
-### Setup
-#### The easy way
+## Setup
+### The easy way
 This works out of the box, so you can either Git clone the repository, or [download the zip](https://github.com/justnarp/show-all-images-in-a-folder-with-php/archive/master.zip).
 
-#### The <del>hard</del> <i>other</i> way
+### The <del>hard</del> <i>other</i> way
 Add [`ins-imgs.php`](https://github.com/justnarp/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.php) and [`ins-imgs.css`](https://github.com/justnarp/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.css) in your root folder (or wherever your index file is).
 
 In your index HTML, insert this:
@@ -33,7 +33,7 @@ In your index HTML, insert this:
 <script src="ins-imgs.php"></script>
 ```
 
-### Settings
+## Settings
 In [`ins-imgs.php`](https://github.com/justnarp/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.php#L5-L17) you can find the following settings:
 
 ```php
@@ -54,8 +54,8 @@ In [`ins-imgs.php`](https://github.com/justnarp/show-all-images-in-a-folder-with
 
 Make the changes needed for your setup.
 
-### Help, bugs, pull requests, etc.
+## Help, bugs, pull requests, etc.
 Very welcomed.
 
-### Customized implementations
+## Customized implementations
 [Easy Folio](https://github.com/justnarp/easy-folio) ([Demo](http://www.lukasspieker.com/hebrides/)) by [Lukas Spieker](https://twitter.com/lukasspieker)
