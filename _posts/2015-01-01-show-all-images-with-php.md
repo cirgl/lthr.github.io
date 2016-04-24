@@ -20,6 +20,7 @@ You can link to a specific image as they're link anchored. Just click on the spe
 You'll need PHP on your server in order for this to work.
 
 ## Setup
+
 ### The easy way
 This works out of the box, so you can either Git clone the repository, or [download the zip](https://github.com/justnarp/show-all-images-in-a-folder-with-php/archive/master.zip).
 
