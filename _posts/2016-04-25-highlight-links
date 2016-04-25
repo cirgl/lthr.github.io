@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Highlight links on the page
+title: Highlight links on a jQuery page
+tags:
+- dom
+- jquery
 ---
 
 From the browser, press F12. Go to the Console, paste below code:
