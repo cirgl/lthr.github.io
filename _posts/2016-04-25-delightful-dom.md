@@ -9,13 +9,13 @@ tags:
 
 From the browser, open the developer tools (press <kbd>Command</kbd>+<kbd>Alt</kbd>+<kbd>J</kbd> (Mac) or <kbd>F12</kbd> (Windows)). Go to the Console, paste below code:
 
-### A page with jQuery
+### Show links with full URL on a page with jQuery
 
 ```javascript
 $('<style type="text/css">a:after{content:" ("attr(href)") "}</style>').appendTo(document.head);
 ```
 
-### A page without jQuery
+### Show links with full URL on a page without jQuery
 
 ```javascript
 var css = 'a:after{content:" ("attr(href)") "}',
