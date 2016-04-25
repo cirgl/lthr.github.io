@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Use DOM to show full URL of all links
+title: Delightful DOM
 tags:
 - dom
 - jquery
 ---
 
-From the browser, press F12. Go to the Console, paste below code:
+## Show links with full URL (on a jQuery page)
 
-## A jQuery page: 
+From the browser, press F12. Go to the Console, paste below code:
 
 ```html
 $('<style type="text/css">a:after{content:" ("attr(href)") ";}</style>').appendTo(document.head);
