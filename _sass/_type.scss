@@ -1,13 +1,20 @@
+@font-face {
+  font-family: 'clear_sansbold';
+  src: url('../public/ClearSans-Bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Typography
 //
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'clear_sansbold', sans-serif;
   margin-bottom: .5rem;
   font-weight: 100;
   line-height: 1.25;
-  color: #1776b4;
+  color: #54595F;
   text-rendering: optimizeLegibility;
 }
 
