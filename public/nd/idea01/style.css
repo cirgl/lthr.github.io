@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#iap {
+    background: url('bg-iap.png') white top left repeat-x;
+}
+
+#profile {
+    background: url('bg-profile.png') white top left repeat-x;
+}
+
+#dashboard {
+    background: url('bg-dashboard.png') white top left repeat-x;
+}
+
+#left {
+    position: absolute;
+    left: 0;
+}
+
+#left-bottom-expand {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 55px;
+}
+
+#right-bottom-expand {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 55px;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+}
+
+#rwd {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font: 11px sans-serif;
+}
+
+#rwd a {
+    color: #61afef;
+    padding-left: 10px;
+}
