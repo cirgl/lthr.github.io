@@ -33,5 +33,3 @@ gems:
   - jekyll-gist
 
 markdown: kramdown
-
-disqus: narp
