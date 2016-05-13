@@ -2,9 +2,9 @@
 permalink:           :title
 
 # Setup
-title:               narp.io
+title:               lthr.io
 tagline:
-url:                 http://narp.io
+url:                 http://lthr.io
 paginate:            1000
 baseurl:             ""
 analytics_id:        UA-77458409-1
@@ -25,7 +25,7 @@ author:
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/justnarp/justnarp
+  repo:              https://github.com/lthr/lthr
 
 # Gems
 gems:
