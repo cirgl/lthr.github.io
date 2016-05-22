@@ -7,7 +7,7 @@ tags:
 - gallery
 ---
 
-[Demo](http://lthr.io/github-gallery/)
+| [Demo](http://lthr.io/github-gallery/) | [Repository](https://github.com/lthr/github-gallery) |
 
 GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
 
