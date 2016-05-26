@@ -22,10 +22,10 @@ You'll need PHP on your server in order for this to work.
 ## Setup
 
 ### The easy way
-This works out of the box, so you can either Git clone [the repository](https://github.com/justnarp/show-all-images-in-a-folder-with-php), or [download the zip](https://github.com/justnarp/show-all-images-in-a-folder-with-php/archive/master.zip).
+This works out of the box, so you can either Git clone [the repository](https://github.com/lthr/show-all-images-in-a-folder-with-php), or [download the zip](https://github.com/lthr/show-all-images-in-a-folder-with-php/archive/master.zip).
 
 ### The <del>hard</del> <i>other</i> way
-Add [`ins-imgs.php`](https://github.com/justnarp/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.php) and [`ins-imgs.css`](https://github.com/justnarp/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.css) in your root folder (or wherever your index file is).
+Add [`ins-imgs.php`](https://github.com/lthr/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.php) and [`ins-imgs.css`](https://github.com/lthr/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.css) in your root folder (or wherever your index file is).
 
 In your index HTML, insert this:
 
@@ -35,7 +35,7 @@ In your index HTML, insert this:
 ```
 
 ## Settings
-In [`ins-imgs.php`](https://github.com/justnarp/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.php#L5-L17) you can find the following settings:
+In [`ins-imgs.php`](https://github.com/lthr/show-all-images-in-a-folder-with-php/blob/master/ins-imgs.php#L5-L17) you can find the following settings:
 
 ```php
     # Path to image folder
@@ -59,4 +59,4 @@ Make the changes needed for your setup.
 Very welcomed.
 
 ## Customized implementations
-[Easy Folio](https://github.com/justnarp/easy-folio) ([Demo](http://www.lukasspieker.com/hebrides/)) by [Lukas Spieker](https://twitter.com/lukasspieker)
+[Easy Folio](https://github.com/lthr/easy-folio) ([Demo](http://www.lukasspieker.com/hebrides/)) by [Lukas Spieker](https://twitter.com/lukasspieker)
