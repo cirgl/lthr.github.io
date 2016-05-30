@@ -33,3 +33,5 @@ gems:
   - jekyll-gist
 
 markdown: kramdown
+
+excerpt_separator: "\n\n"

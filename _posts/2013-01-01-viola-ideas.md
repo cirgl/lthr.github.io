@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Viola layout idea
+exclude: <!-- break -->
 tags:
 - layout
 ---
+
+<!-- break -->
 
 [![Viola layout idea 01][2]][1]
 

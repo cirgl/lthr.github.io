@@ -3,22 +3,18 @@ layout: default
 title: lthr.io
 ---
 
+<div id="index">
 
-<div>
-    <a href="{{ site.baseurl }}/" title="lthr.io">
-        <img src="public/whale.png" alt="whale" style="display: block; margin: 0 auto 2em 0; height: 348px;">
-    </a>
-</div>
+    <h1>LTHR</h1>
 
-
-<div class="posts" style="margin: 0 4em;">
     {% for post in paginator.posts %}
-    <article class="post" style="margin: 0;">
-        <h2 class="post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-            </a>
+    <article>
+        <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}
+            </time>
         </h2>
+        {{ post.excerpt }}
+        {% endfor %}
     </article>
-    {% endfor %}
 </div>

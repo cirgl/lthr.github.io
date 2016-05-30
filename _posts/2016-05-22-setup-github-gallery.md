@@ -7,13 +7,14 @@ tags:
 - gallery
 ---
 
-[Demo](http://lthr.io/github-gallery/) | [Repository](https://github.com/lthr/github-gallery)
-
 GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
+
 
 Images will display up to a max width of 900 pixels. Images larger than 900 pixels will show their full size if you click it.
 
 You can link to a specific image as they're link anchored. Just click on the specific image and copy the browser URL.
+
+[Demo](http://lthr.io/github-gallery/) | [Repository](https://github.com/lthr/github-gallery)
 
 ## Setting up on GitHub
 There are two simple steps:

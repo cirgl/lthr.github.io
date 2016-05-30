@@ -5,7 +5,8 @@ tags:
 - autohotkey
 ---
 
-To resize a PuTTY window with AutoHotkey, to fx. 1000×500 px, i’m using this script:
+To resize a PuTTY window with AutoHotkey, to fx. 1000×500 px, i’m using this script.
+
 
 	; Resize PuTTY window
 	^1::

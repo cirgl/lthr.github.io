@@ -5,7 +5,8 @@ tags:
 - autohotkey
 ---
 
-To resize and tile many open PuTTY windows with AutoHotkey, i’m using this script:
+To resize and tile many open PuTTY windows with AutoHotkey, i’m using this script.
+
 
     ; Tile PuTTY windows
     ^1::

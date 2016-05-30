@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Delightful DOM
+exclude: <!-- break -->
 tags:
 - dom
 ---
+
+<!-- break -->
 
 ## Show links with full URL
 
