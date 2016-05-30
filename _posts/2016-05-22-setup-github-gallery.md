@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Show all images in a folder with GitHub
+title: GitHub Gallery
 tags:
 - jekyll
 - github
 - gallery
 ---
 
-GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
+GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the `/images/` folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
 
 
 Images will display up to a max width of 900 pixels. Images larger than 900 pixels will show their full size if you click it.
