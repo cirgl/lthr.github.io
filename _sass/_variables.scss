@@ -12,20 +12,24 @@ $cyan: #75b5aa;
 $blue: #268bd2;
 $brown: #8f5536;
 
-$root-font-family: 'Georgia', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+//$root-font-family: 'Georgia', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+$root-font-family: "Merriweather", serif;
 $root-font-size: 16px;
 $root-line-height: 1.9;
 
 $body-color: #44484a;
+$body-color: #3A4145;
 $body-bg: white;
-$link-color: #54595F;
-$link-bottom-border-color: #CDD8E0;
+$link-color: #3887E6;
+$link-bottom-border-color: #DEEDF9;
 
 
 $border-color: #e5e5e5;
 
 $large-breakpoint: 38em;
-$large-font-size: 19px;
+$large-font-size: 17px;
 
 $code-font-family: Menlo, Monaco, "Courier New", monospace;
 $code-color: #bf616a;
+
+$header-font-family: 'clear_sansbold', sans-serif;
