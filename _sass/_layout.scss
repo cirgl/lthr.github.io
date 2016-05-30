@@ -13,3 +13,16 @@
 footer {
   margin-bottom: 2rem;
 }
+
+.top-bar {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  & a {
+    color: #2E2E2E;
+    border: none;
+  }
+  & a:hover {
+    color: #3887E6;
+  }
+}
