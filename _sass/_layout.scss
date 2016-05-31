@@ -16,6 +16,12 @@
     font-size: 12rem;
     margin-left: -1rem;
   }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 7rem;
+      margin-left: -.5rem;
+    }
+  }
   margin-top: 8rem;
   margin-bottom: 8rem;
   a {
