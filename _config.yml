@@ -35,3 +35,7 @@ gems:
 markdown: kramdown
 
 excerpt_separator: "\n\n"
+
+exclude:
+  - CNAME
+  - LICENSE.md
