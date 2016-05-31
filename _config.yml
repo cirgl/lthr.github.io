@@ -18,9 +18,9 @@ sass:
 
 # About/contact
 author:
-  name:
+  name:              LTHR
   url:
-  email:             mikelothar@gmail.com
+  email:
 
 # Custom vars
 version:             1.0.0
