@@ -15,6 +15,10 @@ body {
   height: 100%;
 }
 
+body {
+  padding-bottom: 2rem;
+}
+
 html {
   font-size: $root-font-size;
   //font-weight: 300;
@@ -49,8 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post {
-  margin-top: 15rem;
-  margin-bottom: 15rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   h1, h2, h3, h4, h5, h6 {
     margin-top: 2rem;
   }
