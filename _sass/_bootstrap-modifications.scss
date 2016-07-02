@@ -1,0 +1,94 @@
+// Body resets
+//
+// Update the foundational and global aspects of the page.
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  font-size: $root-font-size;
+  //font-weight: 300;
+  text-rendering: geometricPrecision;
+}
+
+body {
+  font-family: $root-font-family;
+  color: $body-color;
+  font-size: 1.0625rem;
+  line-height: $root-line-height;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  font-family: "Lato", sans-serif;
+  //color: #3f3d46;
+  //color: #34495e;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, .nav {
+  font-family: $header-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+  a {
+    color: #34495e;
+  }
+}
+
+.post {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+  }
+}
+
+.index-post {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 55rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar-fixed-top {
+  border-bottom: 1px solid #eee;
+}
+
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  margin-left: .25rem;
+  color: $gray-2;
+  color: #bdc3c7;
+  text-transform: uppercase;
+  font-family: $date-font-family;
+  font-weight: 100;
+  font-size: 0.8125rem;
+}
