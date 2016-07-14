@@ -3,6 +3,27 @@ layout: default
 title: lthr.io
 ---
 
+<div id="top-close-icons">
+<a href="#" target="_top" id="top-post"><svg 
+        fill="#34495e" 
+        height="45" 
+        viewBox="-5 -5 31 31" 
+        width="45" 
+        xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg></a>
+</div>
+
+<script>
+    // grab an element
+    var myElement = document.querySelector("#top-close-icons");
+    // construct an instance of Headroom, passing the element
+    var headroom  = new Headroom(myElement);
+    // initialise
+    headroom.init();
+</script>
+
 <div class="container-fluid index-post">
     <div class="container">
         <div class="row index">
