@@ -9,7 +9,7 @@ Some things about JavaScript objects.
 
 
 * [Basic objects](#basic-objects)
-* [Object constructors](#object constructors)
+* [Object constructors](#object-constructors)
 * [Properties](#properties)
 * [Getters and Setters](#getters-and-setters)
 
