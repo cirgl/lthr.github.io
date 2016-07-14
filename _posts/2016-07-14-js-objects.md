@@ -24,7 +24,7 @@ If you haven't included `'use strict'` in your file, you won't even get an error
 
 ## Properties
 A property on an object is more than just a name and a value. You can see those by using the property descriptor method.
-<script src="https://jsfiddle.net/lthr/t5p3uus8/2/embed/js,result/"></script>
+<script src="https://jsfiddle.net/lthr/t5p3uus8/3/embed/js,result/"></script>
 
 #### Writable
 With `writable` you can set whether it's possible to change the initial value or not. You can define this with the define property method.
