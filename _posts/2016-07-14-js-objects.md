@@ -34,8 +34,8 @@ If you use `'use strict';` in your file, you'll get a `TypeError: Cannot assign 
 
 #### Enumerable
 With `enumerable` set to `false` you can choose to _hide_ the property from the object, which can be useful if you fx don't want to include it in a loop.
-<script src="https://jsfiddle.net/lthr/v3Ldutwa/2/embed/js,result/"></script>
+<script src="https://jsfiddle.net/lthr/v3Ldutwa/3/embed/js,result/"></script>
 
 #### Configurable
 With `configurable` you can set whether it's possible to redefine the property configuration or delete the property.
-<script src="https://jsfiddle.net/lthr/7qdz9tco/1/embed/js,result/"></script>
+<script src="https://jsfiddle.net/lthr/7qdz9tco/2/embed/js,result/"></script>
