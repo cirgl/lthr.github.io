@@ -39,3 +39,8 @@ With `enumerable` set to `false` you can choose to _hide_ the property from the 
 #### Configurable
 With `configurable` you can set whether it's possible to redefine the property configuration or delete the property.
 <script src="https://jsfiddle.net/lthr/7qdz9tco/2/embed/js,result/"></script>
+
+## Getters and Setters
+Getters and Setters are attributes on an object that let's you specify a return value of a property using a function, while letting you access the property like any other property.
+<script src="https://jsfiddle.net/lthr/ugbrfyrs/1/embed/js,result/"></script>
+
