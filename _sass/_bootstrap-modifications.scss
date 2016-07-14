@@ -60,12 +60,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.index-post {
-  min-width: 100%;
+#top-close-icons {
   min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  &.headroom--not-top .index-logo {
+    transform: scale(3, 0);
+    transition: all .2s ease-out;
+    opacity: 0;
+  }
+  &.headroom--top .index-logo {
+    transform: scale(1, 1);
+    opacity: 1;
+    min-height: 100%;
+    transition: all .2s ease-in;
+  }
+}
+
+.index-post {
+  min-width: 100%;
+  padding: 50px 0 40px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 h1 {
@@ -81,8 +97,6 @@ img {
 }
 
 #top-close-icons {
-  
-
   #close-post,
   #top-post {
     top: 0;

@@ -13,18 +13,8 @@ title: lthr.io
     <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
 </svg></a>
-</div>
 
-<script>
-    // grab an element
-    var myElement = document.querySelector("#top-close-icons");
-    // construct an instance of Headroom, passing the element
-    var headroom  = new Headroom(myElement);
-    // initialise
-    headroom.init();
-</script>
-
-<div class="container-fluid index-post">
+<div class="container-fluid index-logo">
     <div class="container">
         <div class="row index">
             <div class="col-sm-12">
@@ -37,6 +27,16 @@ title: lthr.io
         </div>
     </div>
 </div>
+</div>
+
+<script>
+    // grab an element
+    var myElement = document.querySelector("#top-close-icons");
+    // construct an instance of Headroom, passing the element
+    var headroom  = new Headroom(myElement);
+    // initialise
+    headroom.init();
+</script>
 
 {% for post in paginator.posts %}
 <div class="container-fluid index-post">
