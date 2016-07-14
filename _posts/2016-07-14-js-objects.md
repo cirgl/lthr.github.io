@@ -42,5 +42,5 @@ With `configurable` you can set whether it's possible to redefine the property c
 
 ## Getters and Setters
 Getters and Setters are attributes on an object that let's you specify a return value of a property using a function, while letting you access the property like any other property.
-<script src="https://jsfiddle.net/lthr/ugbrfyrs/1/embed/js,result/"></script>
+<script src="https://jsfiddle.net/lthr/ugbrfyrs/2/embed/js,result/"></script>
 
