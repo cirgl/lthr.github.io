@@ -28,4 +28,6 @@ A property on an object is more than just a name and a value. You can see those 
 
 #### Writable
 With `writable` you can set whether it's possible to change the initial value or not. You can define this with the define property method.
-<script src="https://jsfiddle.net/lthr/7ze158dm/1/embed/js,result/"></script>
+<script src="https://jsfiddle.net/lthr/7ze158dm/2/embed/js,result/"></script>
+
+If you use `'use strict';` in your file, you'll get a `TypeError: Cannot assign to read only property 'name' of object` error on trying to change the name, otherwise silence.
