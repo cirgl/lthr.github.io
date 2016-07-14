@@ -16,7 +16,7 @@ There are some different ways you can create JavaScript objects, each having the
 If we want to create multiple instances of an object, we can use object constructors to define a template. By convention, constructors are named with a capital letter.
 <script src="https://jsfiddle.net/lthr/qz6dq6t2/5/embed/js,result/"></script>
 
-### The _new_ keyword
+#### The _new_ keyword
 As you can see, the object constructor is just a normal function. However, the important part is the _new_ keyword, used when creating a new object instance of the constructor, which then returns the instance. Without it, you'll have a normal function, which returns nothing (actually, _undefined_), and sets the constructor properties on the window object (overwriting any window property of the same name).
 <script src="https://jsfiddle.net/lthr/cg4akrom/3/embed/js,result/"></script>
 
@@ -25,3 +25,7 @@ If you haven't included `'use strict'` in your file, you won't even get an error
 ## Properties
 A property on an object is more than just a name and a value. You can see those by using the property descriptor method.
 <script src="https://jsfiddle.net/lthr/t5p3uus8/2/embed/js,result/"></script>
+
+#### Writable
+With `writable` you can set whether it's possible to change the initial value or not. You can define this with the define property method.
+<script src="https://jsfiddle.net/lthr/7ze158dm/1/embed/js,result/"></script>
