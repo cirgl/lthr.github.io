@@ -10,7 +10,11 @@ Some things about JavaScript objects.
 
 * [Basic objects](#basic-objects)
 * [Object constructors](#object-constructors)
+    * [The _new_ keyword](#the-new-keyword)
 * [Properties](#properties)
+    * [Writable](#writable)
+    * [Enumerable](#enumerable)
+    * [Configurable](#configurable)
 * [Getters and Setters](#getters-and-setters)
 
 ## Basic objects
@@ -46,6 +50,6 @@ With `configurable` you can set whether it's possible to redefine the property c
 <script src="https://jsfiddle.net/lthr/7qdz9tco/3/embed/js,result/"></script>
 
 ## Getters and Setters
-Getters and Setters are attributes on an object that let's you specify a return value of a property using a function, while letting you access the property like any other property.
+The `get` and `set` attributes on an object lets you specify a return value of a property using a function, while also giving access to set the property - just like any other property.
 <script src="https://jsfiddle.net/lthr/ugbrfyrs/2/embed/js,result/"></script>
 
