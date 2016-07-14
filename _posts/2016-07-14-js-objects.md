@@ -2,7 +2,7 @@
 layout: post
 title: JavaScript Objects
 tags:
-  javascript
+- javascript
 ---
 
 Some things about JavaScript objects.
