@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
-<nav class="navbar navbar-light navbar-fixed-top" style="background-color: rgba(255, 255, 255, 0.95);">
-    <div class="container">
+<nav class="navbar navbar-light navbar-fixed-top">
+    <div class="container-fluid">
         <div class="nav navbar-nav">
-            <a class="nav-item nav-link active" href="./">Home</a>
+            <a class="nav-item nav-link active" href="./" style="float: right; padding: 0; margin-top: 10px;">
+            <svg fill="#34495e" height="45" viewBox="-5 -5 35 35" width="45" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                <path d="M0 0h24v24H0z" fill="none" />
+            </svg></a>
+
             <!--
                 {% if page.path contains '_posts/' %}
                 <a class="nav-item nav-link" href="https://github.com/lthr/lthr.github.io/blob/master/{{ page.path }}" style="float: right;">View on Github</a>
