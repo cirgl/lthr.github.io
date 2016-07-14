@@ -6,7 +6,7 @@ title: JavaScript Objects
 Some things about JavaScript objects.
 
 
-# Basic objects
+## Basic objects
 Here's 3 basic JavaScript objects:
 <script src="https://jsfiddle.net/lthr/36assx8r/1/embed/js,result/"></script>
 
