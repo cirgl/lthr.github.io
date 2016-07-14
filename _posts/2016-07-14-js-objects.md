@@ -34,4 +34,4 @@ If you use `'use strict';` in your file, you'll get a `TypeError: Cannot assign 
 
 #### Enumerable
 With `enumerable` you can _hide_ the property from the object, which can be useful if you fx don't want to include it in a loop.
-<script src="https://jsfiddle.net/lthr/v3Ldutwa/1/embed/js,result/"></script>
+<script src="https://jsfiddle.net/lthr/v3Ldutwa/2/embed/js,result/"></script>
