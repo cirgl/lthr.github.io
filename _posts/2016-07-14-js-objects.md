@@ -9,8 +9,8 @@ Some things about JavaScript objects.
 
 
 ## Basic objects
-Here's 3 basic JavaScript objects:
-<script src="https://jsfiddle.net/lthr/36assx8r/2/embed/js,result/"></script>
+There are some different ways you can create JavaScript objects, each having their own purposes and benefits.
+<script src="https://jsfiddle.net/lthr/6ppb41eq/1/embed/js,result/"></script>
 
 ## Object constructors
 If we want to create multiple instances of an object, we can use object constructors to define a template. By convention, constructors are named with a capital letter.
@@ -21,3 +21,5 @@ As you can see, the object constructor is just a normal function. However, the i
 <script src="https://jsfiddle.net/lthr/cg4akrom/3/embed/js,result/"></script>
 
 If you haven't included `'use strict'` in your file, you won't even get an error about this.
+
+## Properties
