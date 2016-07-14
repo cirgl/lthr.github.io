@@ -8,6 +8,11 @@ tags:
 Some things about JavaScript objects.
 
 
+* [Basic objects](#basic-objects)
+* [Object constructors](#object constructors)
+* [Properties](#properties)
+* [Getters and Setters](#getters-and-setters)
+
 ## Basic objects
 There are some different ways you can create JavaScript objects, each having their own purposes and benefits.
 <script src="https://jsfiddle.net/lthr/6ppb41eq/1/embed/js,result/"></script>
