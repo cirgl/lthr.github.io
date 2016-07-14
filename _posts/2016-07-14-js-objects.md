@@ -23,3 +23,5 @@ As you can see, the object constructor is just a normal function. However, the i
 If you haven't included `'use strict'` in your file, you won't even get an error about this.
 
 ## Properties
+A property on an object is more than just a name and a value. You can see those by using the property descriptor method.
+<script src="https://jsfiddle.net/lthr/t5p3uus8/1/embed/js,result/"></script>
