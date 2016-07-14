@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Genuine JavaScript
+title: JavaScript Objects
 ---
 
-Some things about JavaScript.
+Some things about JavaScript objects.
 
 
 ## Object constructors
