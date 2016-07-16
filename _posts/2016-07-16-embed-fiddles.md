@@ -8,6 +8,7 @@ tags:
 This post is a guide in how to embed various fiddles into your GitHub Pages posts (and other pages).
 
 ## JS Bin
+[JS Bin](http://jsbin.com) will only let you have one JavaScript, one HTML and one CSS editor window, unlike eg. Plunker which lets you have as many as you'd like. The embedded output options are quite easy though, just click the `share` button and set your options. Another useful thing is the option to choose console as one of the embedded view outputs.
 
 ```html
 <a class="jsbin-embed"
