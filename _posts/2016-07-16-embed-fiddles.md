@@ -9,7 +9,7 @@ How to embed various fiddles in your GitHub Pages.
 
 
 ## Plunker
-[Plunker](https://plnkr.co) / [Parameters](https://ggoodman.gitbooks.io/plunker/content/embed.html)
+[Plunker](https://plnkr.co) stands out as one of the fiddle sites that let's you add more files, as well as having a zip download option. With [parameters](https://ggoodman.gitbooks.io/plunker/content/embed.html) you can also define which content to see in the embedded view, though the console is not an option.
 
 ```html
 <iframe style="width: 100%; height: 330px; border: 0;" 
