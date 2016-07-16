@@ -12,7 +12,6 @@ How to embed various fiddles in your GitHub Pages.
 <iframe 
   style="width: 100%; height: 330px;" 
   src="http://embed.plnkr.co/do7qbv" 
-  frameborder="0" 
-  allowfullscreen="allowfullscreen"></iframe>
+  frameborder="0"></iframe>
 ```
-<iframe style="width: 100%; height: 330px;" src="http://embed.plnkr.co/do7qbv" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe style="width: 100%; height: 330px;" src="http://embed.plnkr.co/do7qbv" frameborder="0"></iframe>
