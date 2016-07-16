@@ -9,9 +9,6 @@ How to embed various fiddles in your GitHub Pages.
 
 ## Plunkr
 ```
-<iframe 
-  style="width: 100%; height: 330px;" 
-  src="http://embed.plnkr.co/do7qbv" 
-  frameborder="0"></iframe>
+<iframe style="width: 100%; height: 330px;" src="http://embed.plnkr.co/do7qbv"></iframe>
 ```
-<iframe style="width: 100%; height: 330px;" src="http://embed.plnkr.co/do7qbv" frameborder="0"></iframe>
+<iframe style="width: 100%; height: 330px;" src="http://embed.plnkr.co/do7qbv"></iframe>
