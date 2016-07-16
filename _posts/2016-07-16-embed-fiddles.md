@@ -8,7 +8,7 @@ tags:
 This post is a guide in how to embed various fiddles into your GitHub Pages posts (and other pages).
 
 ## JS Bin
-[JS Bin](http://jsbin.com) will only let you have one JavaScript, one HTML and one CSS editor window, unlike eg. [Plunker](https://plnkr.co) which lets you have as many as you'd like. The embedded output options are quite easy though, just click the `share` button and set your options. Another useful thing is the option to choose console as one of the embedded view outputs. Also, the embedded view output height is per default set as the height of the content, which is quite nice. You can overwrite this though, if you want to control it manually. There are other [parameters](http://jsbin.com/help/how-can-i-embed-jsbin) as well.
+[JS Bin](http://jsbin.com) will only let you have one JavaScript, one HTML and one CSS editor window, unlike eg. [Plunker](https://plnkr.co) which lets you have as many as you'd like. The embedded output options are quite easy though, just click the `share` button and set your options. Another useful thing is the option to choose console as one of the embedded view outputs. Also, the embedded view output height is per default supposed to be set as the height of the content, which is quite nice.. if it worked. I'm having trouble with this on GitHub Pages though, as you can see below. In any case, you can overwrite this width and height though, if you want to control it manually. There are also other useful [parameters](http://jsbin.com/help/how-can-i-embed-jsbin) as well.
 
 ```html
 <a class="jsbin-embed"
