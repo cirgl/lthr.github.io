@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Embed fiddles in Github Pages
+title: Embedding fiddles
 tags:
 - fiddles
 ---
 
-How to embed various fiddles in your GitHub Pages.
+This post is a guide in how to embed various fiddles into your GitHub Pages posts (and other pages).
 
 
 ## Plunker
