@@ -15,6 +15,6 @@ Here's some real world code snippets I've ran across.
 ```
 
 #### If `true` then `true`
-```javascript
+```
   this.isCustomerLookedUp = this.customerId && this.countryCode ? true : false;
 ```
