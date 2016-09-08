@@ -27,7 +27,8 @@ Here's some code snippets I've run into.
 ##### What's that smell?
 ```
   // group by ISIN only when it is defined.
-  // use a random value otherwise to avoid different declared assets aggregation, for which ISIN is undefined.
+  // use a random value otherwise to avoid different
+  // declared assets aggregation, for which ISIN is undefined.
   return sh.instrument.isin || Math.random();
 ```
 
