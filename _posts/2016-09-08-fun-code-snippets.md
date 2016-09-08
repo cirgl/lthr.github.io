@@ -10,7 +10,7 @@ Here's some real world code snippets I've ran across.
 
 
 #### Uppercase spacing
-```javascript
+```
   name: key.toUpperCase().replace(' ', '_')
 ```
 
