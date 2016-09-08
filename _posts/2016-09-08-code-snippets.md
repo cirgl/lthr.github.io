@@ -18,3 +18,9 @@ Here's some code snippets I've run into.
 ```
   this.isCustomerLookedUp = this.customerId && this.countryCode ? true : false;
 ```
+
+##### Typo that passed code reviews
+```
+  <span ng-show="a.foreignCurrency" class="badge foreign-furrency" ng-bind="a.foreignCurrency"></span>
+```
+  
