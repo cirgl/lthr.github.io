@@ -3,7 +3,7 @@ layout: post
 title: Burn a Book
 tags:
 - logo
-- design
+- photoshop
 ---
 
 Logo idea for _Burn a Book_, a friend of a friend's online book store. Not sure if they ever decided to use it or not.
