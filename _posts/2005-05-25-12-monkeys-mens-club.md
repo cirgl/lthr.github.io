@@ -8,4 +8,4 @@ tags:
 
 A friend of a friend needed a logo for his club 12 Monkeys.
 
-![June 2006](https://github.com/lthr/12-monkeys-mens-club/raw/master/12monkeys.png)
+![12 Monkeys logo](https://github.com/lthr/12-monkeys-mens-club/raw/master/12monkeys.png)
