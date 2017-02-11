@@ -117,4 +117,6 @@ Create a folder in the root of your project called `dist`. Inside it, add a file
 In your GitHub repository, create a branch called `gh-pages`.
 
 ### Push your changes to GitHub
-Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at <pre>http://<b>YOUR-GITHUB-USERNAME-HERE</b>.github.io/<b>YOUR-GITHUB-REPOSITORY-NAME-HERE</b></pre>.
+Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at:
+
+<pre>http://<b>YOUR-GITHUB-USERNAME-HERE</b>.github.io/<b>YOUR-GITHUB-REPOSITORY-NAME-HERE</b></pre>
