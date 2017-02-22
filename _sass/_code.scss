@@ -8,6 +8,7 @@ pre {
   font-family: $code-font-family;
 }
 
+pre,
 code {
   padding: .25em .5em;
   font-size: 85%;
@@ -16,6 +17,7 @@ code {
   border-radius: 3px;
 }
 
+/*
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -27,6 +29,7 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+*/
 
 // Pygments via Jekyll
 .highlight {
