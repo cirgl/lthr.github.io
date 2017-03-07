@@ -29,8 +29,14 @@
 @import "pagination";
 @import "message";
 @import "tags";
-*/
 @import "lthr-variables";
 @import "bootstrap-modifications";
 @import "bootstrap-code";
 @import "syntax";
+*/
+
+@import "variables";
+@import "base";
+@import "type";
+@import "layout";
+@import "code";

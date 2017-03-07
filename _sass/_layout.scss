@@ -1,9 +1,5 @@
-// Layout
-//
-// Styles for managing the structural hierarchy of the site.
-
 .container {
-  max-width: 50rem;
+  max-width: 65rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
@@ -11,65 +7,32 @@
   margin-bottom: 8rem;
 }
 
-#index {
-  h1 {
-    font-size: 12rem;
-    margin-left: -1rem;
-  }
-  @media (max-width: 500px) {
-    h1 {
-      font-size: 7rem;
-      margin-left: -.5rem;
-    }
-  }
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-  a {
-    border: none;
-    text-decoration: none;
-    color: #2E2E2E;
-  }
-  article {
-    margin-bottom: 3rem;
-  }
-  .post-date {
-    display: inline-block;
-    margin: 0 0 0 .5rem;
-  }
+.avatar {
+  align-self: center;
+  width: 15rem;
+  height: 15rem;
+  background-image: url("./public/img/lthr.jpg");
+  background-size: 15rem auto;
+  border-radius: 50%;
 }
 
-footer {
-  background-color: #2E2E2E;
-  height: 300px;
+post-header {
   width: 100%;
-  margin: 5rem 0 0;
-  & .inner-footer {
-    max-width: 45rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-
-    a {
-      color: #c3c3c3;
-      text-transform: uppercase;
-      font-family: $header-font-family;
-      font-weight: 100;
-      font-size: 0.8125rem;
-      border: none;
-    }
-  }
+  height: 15rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
-.top-bar {
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  & a {
-    color: #2E2E2E;
-    border: none;
-  }
-  & a:hover {
-    color: #3887E6;
-  }
+header {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  background: $pre-bg;
 }

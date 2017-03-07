@@ -3,54 +3,21 @@ layout: default
 title: lthr.io
 ---
 
-<div id="top-close-icons" class="index-page">
-<a href="#" target="_top" id="top-post"><svg 
-        fill="#34495e" 
-        height="45" 
-        viewBox="-5 -5 31 31" 
-        width="45" 
-        xmlns="http://www.w3.org/2000/svg">
-    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg></a>
+<!--{% include navbar.html %}-->
 
-<div class="container-fluid index-logo">
-    <div class="container">
-        <div class="row index">
-            <div class="col-sm-12">
-                <article>
-                    <h1 style="font-size: 8rem;">
-                        LTHR
-                    </h1>
-                </article>
-            </div>
-        </div>
+{% include header.html %}
+
+<div class="container">
+
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="author">
+        <span class="date">{{ post.date | date_to_long_string }} | {% include post-tags.html %}</span>
+    </p>
+    <div class="content">
     </div>
+    {% endfor %}
+    <!--{{ post.excerpt }}-->
+    <!--{{ post.content }}-->
 </div>
-</div>
-
-<script>
-    // grab an element
-    var myElement = document.querySelector("#top-close-icons");
-    // construct an instance of Headroom, passing the element
-    var headroom  = new Headroom(myElement);
-    // initialise
-    headroom.init();
-</script>
-
-{% for post in paginator.posts %}
-<div class="container-fluid index-post">
-    <div class="container">
-        <div class="row index">
-            <div class="col-sm-12">
-                <article>
-                    <h2>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </h2>
-                    {{ post.excerpt }}
-                </article>
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}

@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'clear_sansbold';
-  src: url('../public/ClearSans-Bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 $gray-1: #f9f9f9;
 $gray-2: #ccc;
 $gray-3: #767676;
@@ -23,6 +16,7 @@ $root-font-family: "Merriweather", serif;
 $root-font-size: 16px;
 $root-line-height: 1.9;
 
+$body-color: #44484a;
 $body-color: #3A4145;
 $body-bg: white;
 $link-color: #3887E6;
@@ -38,4 +32,3 @@ $code-font-family: Menlo, Monaco, "Courier New", monospace;
 $code-color: #bf616a;
 
 $header-font-family: 'clear_sansbold', sans-serif;
-$date-font-family: 'clear_sansbold', sans-serif;

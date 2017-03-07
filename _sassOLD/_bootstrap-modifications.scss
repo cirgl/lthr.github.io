@@ -60,25 +60,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#top-close-icons {
-  &.index-page {
-    min-height: 100%;
-  }
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &.headroom--not-top .index-logo {
-    transform: scale(3, 0);
-    transition: all .2s ease-out;
-    opacity: 0;
-  }
-  &.headroom--top .index-logo {
-    transform: scale(1, 1);
-    opacity: 1;
-    transition: all .2s ease-in;
-  }
-}
-
 .index-post {
   min-width: 100%;
   padding: 50px 0 40px;

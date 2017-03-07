@@ -8,24 +8,19 @@ pre {
   font-family: $code-font-family;
 }
 
-code, pre {
+pre,
+code {
   padding: .25em .5em;
-  font-size: 1.1rem;
+  font-size: 85%;
   color: $code-color;
-  background-color: $code-bg;
+  background-color: #f9f9f9;
   border-radius: 3px;
 }
 
+/*
 pre {
-  color: $pre-color;
-  background-color: $pre-bg;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
-}
-
-pre b {
-  color: $pre-color-bold;
 }
 
 pre code {
@@ -34,17 +29,17 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+*/
 
 // Pygments via Jekyll
 .highlight {
   padding: 1rem;
   margin-bottom: 1rem;
-  font-size: 1.1rem;
-  //line-height: 1.4;
-  //background-color: #f3f9ff;
-  background-color: $pre-bg;
-  //border-radius: .25rem;
-  //border: 1px solid #dae7f1;
+  font-size: .8rem;
+  line-height: 1.4;
+  background-color: #FBFDFF;
+  border-radius: .25rem;
+  border: 1px solid #F1F9FF;
 
   pre {
     margin-bottom: 0;
@@ -58,8 +53,8 @@ pre code {
     color: #999;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+            user-select: none;
   }
 }
 
