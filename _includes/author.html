@@ -1,0 +1,15 @@
+<p class="author">
+    <span class="date">
+
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        {% if page.title == "lthr.io" %}
+            {{ post.date | date_to_long_string }} |
+        {% else %}
+            {{ page.date | date_to_long_string }} |
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            <a href="https://github.com/lthr/lthr.github.io/blob/master/{{ page.path }}">Contribute to this post</a> |
+        {% endif %}
+
+        <i class="fa fa-tags" aria-hidden="true"></i> {% include post-tags.html %}
+    </span>
+</p>

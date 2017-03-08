@@ -12,9 +12,7 @@ title: lthr.io
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-        <span class="date">{{ post.date | date_to_long_string }} | {% include post-tags.html %}</span>
-    </p>
+    {% include author.html %}
     <div class="content">
     </div>
     {% endfor %}
