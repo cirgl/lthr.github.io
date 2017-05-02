@@ -1,16 +1,14 @@
----
-layout: burn-a-book
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container">
+{% include head.html %}
 
-    <post-header>
-        {% include avatar.html %}
-    </post-header>
+<body>
 
-    <h1>{{ page.title }}</h1>
-    {% include author.html %}
-    <div class="content">
-        {{ content }}
-    </div>
-</div>
+    {{ content }}
+
+Burn a Book
+
+</body>
+
+</html>
