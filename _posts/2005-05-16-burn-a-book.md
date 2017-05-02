@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: burn-a-book
 title: Burn a Book
 tags:
 - logo
