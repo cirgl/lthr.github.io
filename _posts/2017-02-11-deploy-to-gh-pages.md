@@ -18,60 +18,15 @@ In the root of your project, initialize with `npm init -f` to create a default `
 {% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c package.json %}
 
 ## Deploy script
-Create a folder in the root of your project called `scripts`. Inside it, add a file called `deploy-to-gh-pages.sh` containing this (replace the text marked with **bold**):
+Create a folder in the root of your project called `scripts`. Inside it, add a file called `deploy-to-gh-pages.sh` containing this (replace `user.name` and `user.email`):
 
-<pre>
-#!/bin/bash
-echo "Starting deployment"
-echo "Target: gh-pages branch"
-
-DIST_DIRECTORY="dist/"
-CURRENT_COMMIT=`git rev-parse HEAD`
-ORIGIN_URL=`git config --get remote.origin.url`
-ORIGIN_URL_WITH_CREDENTIALS=${ORIGIN_URL/\/\/github.com/\/\/$GITHUB_TOKEN@github.com}
-
-cp .gitignore $DIST_DIRECTORY || exit 1
-
-echo "Checking out gh-pages branch"
-git checkout -B gh-pages || exit 1
-
-echo "Removing old static content"
-git rm -rf . || exit 1
-
-echo "Copying dist content to root"
-cp -r $DIST_DIRECTORY/* . || exit 1
-cp $DIST_DIRECTORY/.gitignore . || exit 1
-
-echo "Pushing new content to $ORIGIN_URL"
-git config user.name "<b>YOUR-GITHUB-USERNAME</b>" || exit 1
-git config user.email "<b>YOUR-GITHUB-EMAIL</b>" || exit 1
-
-git add -A . || exit 1
-git commit --allow-empty -m "Regenerated static content for $CURRENT_COMMIT" || exit 1
-git push --force --quiet "$ORIGIN_URL_WITH_CREDENTIALS" gh-pages > /dev/null 2>&1
-
-echo "Cleaning up temp files"
-rm -Rf $DIST_DIRECTORY
-
-echo "Deployed successfully."
-exit 0
-</pre>
-
+{% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c deploy-to-gh-pages.sh %}
 
 ## Travis setup script
 Create a file in the root of your project called `.travis.yml` containing this:
 
-<pre>
-language: node_js
-node_js:
-  - node
-before_script:
-  - chmod +x ./scripts/deploy-to-gh-pages.sh
-script:
-- npm run build
-after_success:
-  - ./scripts/deploy-to-gh-pages.sh
-</pre>
+{% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c .travis.yml %}
+
 
 ## GitHub access token
 Generate a new access token from [GitHub](https://github.com/settings/tokens/new). Give it a description, and the following permissions found [here](https://docs.travis-ci.com/user/github-oauth-scopes/). Don't close the window after you've created your token, you'll need the token later in this setup.
