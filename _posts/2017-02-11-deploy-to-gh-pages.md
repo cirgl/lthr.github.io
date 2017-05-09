@@ -17,6 +17,8 @@ In the root of your project, initialize with `npm init -f` to create a default `
 
 <script src="https://gist.github.com/lthr/80f54aa8a7fe70e5d768fe80c93ebf3c.js?file=package.json"></script>
 
+<script src="https://gist.github.com/lthr/80f54aa8a7fe70e5d768fe80c93ebf3c.js?file=package.json&line=2"></script>
+
 <code data-gist-id="5457629" data-gist-hide-footer="true" data-gist-hide-line-numbers="true"></code>
 
 <code data-gist-id="5457668" data-gist-line="2,3,4"></code>
