@@ -25,7 +25,7 @@ In the root of your project, initialize with `npm init -f` to create a default `
 
 x
 
-{% gist 80f54aa8a7fe70e5d768fe80c93ebf3c package.json %}
+{% gist 80f54aa8a7fe70e5d768fe80c93ebf3c package.json mark:2,3 %}
 
 
 <pre>
