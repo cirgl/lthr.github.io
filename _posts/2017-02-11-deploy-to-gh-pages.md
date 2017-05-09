@@ -13,36 +13,9 @@ This setup will deploy content from a `dist/` folder to GH-Pages via Travis-CI.
 Create or use one of your existing repositories on GitHub. Clone it, and create a `master` branch if you don't already have one. Use this branch for the rest of the setup.
 
 ## Initialize your project
-In the root of your project, initialize with `npm init -f` to create a default `package.json` file if you don't already have one. Edit it, add the line marked with **bold** to generate dummy output in your `dist` folder:
-
-<script src="https://gist.github.com/lthr/80f54aa8a7fe70e5d768fe80c93ebf3c.js?file=package.json"></script>
-
-<script src="https://gist.github.com/lthr/80f54aa8a7fe70e5d768fe80c93ebf3c.js?file=package.json&line=2"></script>
-
-<code data-gist-id="5457629" data-gist-hide-footer="true" data-gist-hide-line-numbers="true"></code>
-
-<code data-gist-id="80f54aa8a7fe70e5d768fe80c93ebf3c" data-gist-line="2,3,4"></code>
-
-xx
+In the root of your project, initialize with `npm init -f` to create a default `package.json` file if you don't already have one. Edit it, add the `build` script seen below to generate dummy output in your `dist` folder:
 
 {% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c package.json %}
-
-
-<pre>
-{
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    <b>"build": "echo \"Hello, World\" > ./dist/index.html",</b>
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
-</pre>
 
 ## Deploy script
 Create a folder in the root of your project called `scripts`. Inside it, add a file called `deploy-to-gh-pages.sh` containing this (replace the text marked with **bold**):
