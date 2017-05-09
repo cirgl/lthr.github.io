@@ -15,6 +15,10 @@ Create or use one of your existing repositories on GitHub. Clone it, and create 
 ## Initialize your project
 In the root of your project, initialize with `npm init -f` to create a default `package.json` file if you don't already have one. Edit it, add the line marked with **bold** to generate dummy output in your `dist` folder:
 
+{% gist 5555251 %}
+
+<script src="https://gist.github.com/benbalter/5555251.js?file=gist.md"></script>
+
 <pre>
 {
   "name": "test",
