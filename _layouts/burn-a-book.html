@@ -2,7 +2,7 @@
 <html lang="en">
 {% include head-begin.html %}
 
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sacramento|Montserrat:100" rel="stylesheet">
 
 <style>
     html, body {
@@ -10,45 +10,40 @@
     }
 
     body {
-        background-image: linear-gradient(-200deg, #FFA100 0%, #F8EE68 100%);
+        background-image: linear-gradient(135deg, #0545A5 0%, #0C4FAF 17%, #307FDC 100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        text-align: center;
-        padding-bottom: 100px;
+        padding: 30px 20px 100px;
     }
 
     h1 {
-        font-family: 'Roboto Slab', serif;
-        font-size: 45px;
-        color: #020202;
-        letter-spacing: -.5px;
-        line-height: 45px;
-        font-weight: 300;
-        margin: 50px 0 5px;
+        font-family: Sacramento;
+        font-size: 50px;
+        color: #FFFFFF;
+        letter-spacing: -1.11px;
+        line-height: 70px;
+        margin: 25px 0 5px;
+        font-weight: 400;
     }
 
     img {
         max-width: 310px;
+        margin-top: 50px;
     }
 
     p {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 300;
-        font-size: 18px;
-        color: #000000;
-        letter-spacing: 0;
-        line-height: 30px;
-        margin: 30px 20px 30px;
+        font-family: Montserrat;
+        font-size: 15px;
+        color: #A8CAF0;
+        line-height: 20px;
+        font-weight: 100;
     }
 
     .date {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 400;
+        font-family: Montserrat;
         font-size: 12px;
-        color: #000000;
-        letter-spacing: 0;
-        line-height: 30px;
+        color: #A8CAF0;
     }
 
 </style>
@@ -56,8 +51,8 @@
 
 {% include head-end.html %}
 <body>
-<h1>{{ page.title }}</h1>
 <div class="date">{{ page.date | date: "%B %-d, %Y"}}</div>
+<h1>{{ page.title }}</h1>
 {{ content }}
 </body>
 </html>
