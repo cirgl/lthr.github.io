@@ -2,7 +2,7 @@
 <html lang="en">
 {% include head-begin.html %}
 
-<link href="https://fonts.googleapis.com/css?family=Chivo|Montserrat:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
 
 <style>
     html, body {
@@ -14,23 +14,17 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        font-family: 'Chivo', sans-serif;
-        font-size: 12px;
-        color: #000000;
-        letter-spacing: 0;
-        line-height: 22px;
         text-align: center;
     }
 
     h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 45px;
         color: #020202;
-        letter-spacing: 4px;
-        text-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        text-transform: uppercase;
-        margin-top: 100px;
+        letter-spacing: -.5px;
+        line-height: 45px;
+        font-weight: 300;
+        margin: 50px 0 5px;
     }
 
     img {
@@ -38,7 +32,22 @@
     }
 
     p {
-        padding: 0 50px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin: 30px 20px 30px;
+    }
+
+    .date {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 30px;
     }
 
 </style>
@@ -47,6 +56,7 @@
 {% include head-end.html %}
 <body>
 <h1>{{ page.title }}</h1>
+<div class="date">{{ page.date | date: "%B %-d, %Y"}}</div>
 {{ content }}
 </body>
 </html>
