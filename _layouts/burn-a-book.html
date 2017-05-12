@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head-begin.html %}
-{% include css-default.html %}
+
+<link href="https://fonts.googleapis.com/css?family=Chivo|Montserrat:700" rel="stylesheet">
+
+<style>
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        background-image: linear-gradient(-200deg, #FFA100 0%, #F8EE68 100%);
+        font-family: 'Chivo', sans-serif;
+        font-size: 12px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: #020202;
+        letter-spacing: 4px;
+        text-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        text-transform: uppercase;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    p {
+        padding: 0 50px;
+    }
+
+</style>
+
+
 {% include head-end.html %}
 <body>
+<h1>{{ page.title }}</h1>
 {{ content }}
-{% include js-default.html %}    
 </body>
 </html>
