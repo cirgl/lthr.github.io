@@ -18,7 +18,7 @@ In the root of your project, initialize with `npm init -f` to create a default `
 {% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c package.json %}
 
 ## Deploy script
-Create a file called `deploy-to-gh-pages.sh` containing this (replace `user.name` and `user.email` values):
+Create a file called `deploy-to-gh-pages.sh` containing this (replace `GH_USER_NAME` and `GH_USER_EMAIL` values):
 
 {% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c deploy-to-gh-pages.sh %}
 
