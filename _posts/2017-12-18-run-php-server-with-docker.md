@@ -12,3 +12,5 @@ tags:
 ```bash
 docker run -tid -p 80:80 --name apache -v ~/your-php-project/:/var/www/html nimmis/apache-php5
 ```
+
+3. Enjoy on `localhost`
