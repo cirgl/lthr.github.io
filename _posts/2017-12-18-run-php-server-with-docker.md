@@ -7,8 +7,6 @@ tags:
 - docker
 ---
 
-# Run a PHP server with Docker
-
 1. Install Docker
 2. From terminal, run the following (fix the path to your PHP project dir):
 ```bash
