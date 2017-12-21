@@ -1,3 +1,11 @@
+---
+layout: post
+title: Git commits today
+tags:
+- git
+- bash
+---
+
 This little command will show you what commits you did today. Good for when you need to register time on what you did at the end of the day.
 
 ```bash
