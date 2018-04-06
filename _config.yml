@@ -2,9 +2,9 @@
 permalink:           :title
 
 # Setup
-title:               lthr.io
+title:               mikelothar.com
 tagline:
-url:                 http://lthr.io
+url:                 http://mikelothar.com
 paginate:            1000
 baseurl:             ""
 analytics_id:        UA-77750213-1
@@ -18,14 +18,14 @@ sass:
 
 # About/contact
 author:
-  name:              LTHR
+  name:              Mike Lothar
   url:
   email:
 
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/lthr/lthr
+  repo:              https://github.com/mikelothar/mikelothar
 
 # Gems
 gems:
