@@ -25,7 +25,7 @@ author:
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/mikelothar/mikelothar
+  repo:              https://github.com/mikelothar/mikelothar.github.io
 
 # Gems
 gems:
