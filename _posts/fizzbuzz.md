@@ -1,9 +1,3 @@
----
-path: "/blog/test"
-date: "2017-11-07"
-title: "My first blog post"
----
-
 <a href="https://www.amazon.com/gp/product/B00PYBJ7DQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00PYBJ7DQ&linkCode=as2&tag=mikelothar-20&linkId=03232bbc905bad02f3a080458371f3d7" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41y0gMLSgsL._SX312_BO1,204,203,200_.jpg" style="width: 50px; float: right;"></a>
 FizzBuzz is a common test given to JavaScript candidates. Interesting enough, 
 only around 1 in 200 get this right during the first try. I'll try to go through
