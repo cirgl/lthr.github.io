@@ -15,17 +15,17 @@ Create or use one of your existing repositories on GitHub. Clone it, and create 
 ## Initialize your project
 In the root of your project, initialize with `npm init -f` to create a default `package.json` file if you don't already have one. Edit it, add the `build` script seen below to generate dummy output into a `dist` folder:
 
-{% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c package.json %}
+{% gist mikelothar/80f54aa8a7fe70e5d768fe80c93ebf3c package.json %}
 
 ## Deploy script
 Create a file called `deploy-to-gh-pages.sh` containing this (replace `GH_USER_NAME` and `GH_USER_EMAIL` values):
 
-{% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c deploy-to-gh-pages.sh %}
+{% gist mikelothar/80f54aa8a7fe70e5d768fe80c93ebf3c deploy-to-gh-pages.sh %}
 
 ## Travis setup script
 Create a file called `.travis.yml` containing this:
 
-{% gist lthr/80f54aa8a7fe70e5d768fe80c93ebf3c .travis.yml %}
+{% gist mikelothar/80f54aa8a7fe70e5d768fe80c93ebf3c .travis.yml %}
 
 
 ## GitHub access token
